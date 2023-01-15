@@ -1,3 +1,8 @@
 <header class="header">
-    <input type="text" class="new-todo" placeholder="Write a task to be done">
+    <input type="text" class="new-todo" placeholder="Write a task to be done" 
+    autofocus 
+    [value]="text" 
+    (keyup)="changeText($event)" 
+    (keyup.enter)="addTodo()"
+    />
 </header>
