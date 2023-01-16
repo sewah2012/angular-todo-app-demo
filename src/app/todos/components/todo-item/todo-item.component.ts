@@ -8,4 +8,9 @@ import { TodoInterface } from '../../types/todo.interface';
 export class TodoItemComponent {
   @Input('todo')
   todoProp!: TodoInterface;
+
+
+  setTodoInEditMode(): void{
+    
+  }
 }
