@@ -7,7 +7,7 @@ import { TodoService } from '../../services/todo.service';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
-   text: String = "";
+   text: string = "";
 
    constructor(private todoService: TodoService){
    
